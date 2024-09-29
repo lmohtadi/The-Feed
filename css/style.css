@@ -20,7 +20,7 @@ header img:hover {
 }
 
 nav{
-   max-width: 25%;
+   max-width: 20%;
    position: fixed;
    font-family: "Inder", sans-serif;
 background-color: rgb(254,245,245);
@@ -39,9 +39,9 @@ main{
   margin-left: 30%;
   padding: 3%; 
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
  align-items: center;
+ flex-wrap: wrap;
 }
 
 img{
@@ -61,7 +61,7 @@ border:10px, dotted, rgb(237,185,185);
 }
 section {
   background-color: rgb(227,236,233);
-  width: 60%;
+  width: 35%;
   margin: 5%;
   padding: 3%;
   margin-bottom: 10px;
@@ -135,112 +135,128 @@ padding:2%;
 text-align: center;
 }
 
-#welcome {
+.welcome {
 font-family:"Kalnia", serif;
-padding: 2%;
+padding-left: 15%;
+padding-right: 15%;
 background-color:rgb(237,185,185);
 border-radius: 10px;
+width: 300px;
 }
 
-#welcome h1 {
-  font-size: 30pt;
+.welcome h1 {
+  font-size: 40pt;
   font-style: bold;
+  width: 300px;
 }
-#alarm {
+.alarm {
   display: flex;
-margin: 5px;
+margin: 1%;
 flex-basis: 30%;
 flex-direction: row;
 justify-content: space-around; 
 align-items: flex-end;
 border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
-#vsco {
+.vsco {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1%;
 }
-#isu{
+.isu{
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#phonecall {
+.phonecall {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#instagram {
+.instagram {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#whatsapp {
+.whatsapp {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#clock {
+.clock {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid rgb(254,245,245);
+  padding: 1pt;
 }
-#lock {
+.lock {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#snapchat {
+.snapchat {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#home {
+.home {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#minimalist {
+.minimalist {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  padding: 1pt;
 }
-#netflix {
+.netflix {
   display: flex;
-  margin: 5px;
+  margin: 1%;
   flex-basis: 30%; 
   flex-direction: row;
   justify-content: space-around;
   border: 2pt solid  rgb(254,245,245);
+  width: 300px;
+  padding: 1pt;
 }
