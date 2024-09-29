@@ -32,6 +32,9 @@ top: 0;
 left: 0;
 padding: 1%;
 padding-bottom: 3%;
+overflow-y: scroll;
+overflow-x: none;
+
 }
 main{
   
@@ -39,9 +42,12 @@ main{
   margin-left: 30%;
   padding: 3%; 
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-around;
  align-items: center;
- flex-wrap: wrap;
+
 }
 
 img{
@@ -67,7 +73,9 @@ section {
   margin-bottom: 10px;
   border-radius: 10px;
   
-}
+ }
+  
+
 
 section img {
   padding: 5%;
@@ -110,7 +118,7 @@ font-family:"Inder", system-ui;
   border: 3pt solid rgb(255,255,243);
   font-size: 10pt;
   padding-bottom: 2%;
-  
+  margin-bottom: 25%;
 }
 a{
   text-decoration: none;
@@ -125,16 +133,6 @@ h2{
   font-size: 30pt;
 }
 
-p{
-color: rgb(237,7,159);
-font-size: 13pt;
-word-wrap: normal;
-border-radius: 15px;
-border-width: 10%;
-padding:2%;
-text-align: center;
-}
-
 .welcome {
 font-family:"Kalnia", serif;
 padding-left: 15%;
@@ -145,118 +143,96 @@ width: 300px;
 }
 
 .welcome h1 {
-  font-size: 40pt;
+  font-size: 30pt;
   font-style: bold;
   width: 300px;
 }
 .alarm {
-  display: flex;
 margin: 1%;
 flex-basis: 30%;
-flex-direction: row;
-justify-content: space-around; 
-align-items: flex-end;
 border: 2pt solid  rgb(254,245,245);
 padding: 1%;
 }
 .vsco {
-  display: flex;
   margin: 1%;
   flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
   border: 2pt solid  rgb(254,245,245);
   padding: 1%;
 }
 .isu{
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
 .phonecall {
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
 .instagram {
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
 .whatsapp {
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
 .clock {
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid rgb(254,245,245);
-  padding: 1pt;
+  flex-basis: 30%;
+  border: 2pt solid  rgb(254,245,245);
+  padding: 1%;
 }
 .lock {
-  display: flex;
-  margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+margin: 1%;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
 .snapchat {
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
+  flex-basis: 30%;
   border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+  padding: 1%;
 }
 .home {
-  display: flex;
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
+  flex-basis: 30%;
   border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+  padding: 1%;
 }
-.minimalist {
-  display: flex;
+#minimalist {
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  padding: 1pt;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
 }
-.netflix {
-  display: flex;
+#netflix {
+margin: 1%;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
+}
+.messages {
   margin: 1%;
-  flex-basis: 30%; 
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2pt solid  rgb(254,245,245);
-  width: 300px;
-  padding: 1pt;
+flex-basis: 30%;
+border: 2pt solid  rgb(254,245,245);
+padding: 1%;
+max-width: 30%;
+}
+.caption{
+flex-wrap: nowrap;
+color: rgb(237,7,159);
+font-size: 10pt;
+word-wrap: normal;
+border-radius: 15px;
+border-width: 10%;
+padding:2%;
+text-align: center;
 }
