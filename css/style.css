@@ -24,7 +24,7 @@ nav{
    position: fixed;
    font-family: "Inder", sans-serif;
 background-color: rgb(254,245,245);
-border: 3px, solid rgb(237,7,159);
+border: 3px, dotted rgb(237,185,185);
 height: 100vh;
 margin: 1%;
 margin-bottom: 3%;
@@ -42,7 +42,6 @@ main{
   flex-direction: column;
   justify-content: space-around;
  align-items: center;
-  
 }
 
 img{
@@ -61,7 +60,7 @@ border:10px, dotted, rgb(237,185,185);
 
 }
 section {
-  background-color: rgb(237,185,185);
+  background-color: rgb(227,236,233);
   width: 60%;
   margin: 5%;
   padding: 3%;
@@ -72,10 +71,9 @@ section {
 
 section img {
   padding: 5%;
-  border: 20px, solid, rgb(254,245,245);
-  border:8px, dotted,rgb(250,242,226);
+  border: 20px, dotted, rgb(254,245,245);
 }
-section img:hover{
+section img:hover {
 transform: rotate(1.05);
 }
 p {
@@ -87,6 +85,7 @@ p {
 #gif {
   border-style: none;
   background-image: url(../img/green.jpg);
+  border: 3pt solid rgb(255,255,243);
 }
 h1, h2{
   text-align: center;
@@ -108,10 +107,9 @@ font-family:"Inder", system-ui;
 
 #friends {
   background-color: rgb(227,236,233);
+  border: 3pt solid rgb(255,255,243);
   font-size: 10pt;
   padding-bottom: 2%;
-  overflow-y: scroll;
-  margin-bottom: 2%;
   
 }
 a{
@@ -139,8 +137,9 @@ text-align: center;
 
 #welcome {
 font-family:"Kalnia", serif;
-border: 12px dotted hotpink;
-padding: 2%; 
+padding: 2%;
+background-color:rgb(237,185,185);
+border-radius: 10px;
 }
 
 #welcome h1 {
@@ -152,23 +151,96 @@ padding: 2%;
 margin: 5px;
 flex-basis: 30%;
 flex-direction: row;
-justify-content: flex-end; 
+justify-content: space-around; 
 align-items: flex-end;
+border: 2pt solid  rgb(254,245,245);
 }
 #vsco {
   display: flex;
   margin: 5px;
   flex-basis: 30%; 
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: flex-end;
+  border: 2pt solid  rgb(254,245,245);
 }
 #isu{
   display: flex;
   margin: 5px;
   flex-basis: 30%; 
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#phonecall {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#instagram {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#whatsapp {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#clock {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid rgb(254,245,245);
+}
+#lock {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#snapchat {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#home {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#minimalist {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
+}
+#netflix {
+  display: flex;
+  margin: 5px;
+  flex-basis: 30%; 
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2pt solid  rgb(254,245,245);
 }
