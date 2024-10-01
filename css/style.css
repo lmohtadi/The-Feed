@@ -140,8 +140,9 @@ padding-left: 15%;
 padding-right: 15%;
 background-color:rgb(237,185,185);
 border-radius: 10px;
-text-align: center;
+width: 100%; 
 }
+
 
 .twinkle {
 margin-bottom: 25%;
@@ -150,7 +151,6 @@ margin-bottom: 25%;
 .welcome h1 {
   font-size: 30pt;
   font-style: bold;
-  width: 300px;
   text-align: center;
 }
 .alarm {
