@@ -20,7 +20,6 @@ nav{
    position: fixed;
    font-family: "Inder", sans-serif;
 background-color: rgb(254,245,245);
-border: 3px, dotted rgb(237,185,185);
 height: 100vh;
 margin: 1%;
 margin-bottom: 3%;
@@ -51,7 +50,6 @@ main{
 
 img{
 border-image: auto;
-border:10px, dotted, rgb(237,185,185);
  display: block;
   margin-left: auto;
   margin-right: auto;
