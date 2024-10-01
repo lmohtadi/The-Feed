@@ -112,6 +112,9 @@ font-family:"Inder", system-ui;
   padding-bottom: 2%;
   margin-bottom: 25%;
 }
+#friends h1:hover{
+  opacity: 50%;
+}
 a{
   text-decoration: none;
 }
